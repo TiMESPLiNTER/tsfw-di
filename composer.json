@@ -1,0 +1,29 @@
+{
+    "name": "timesplinter/tsfw-di",
+    "type": "library",
+    "description": "PHP library which provides a fast and simple to use dependency injection container",
+    "keywords": ["tsFramework", "tsfw", "dependency injection"],
+    "homepage": "http://github.com/TiMESPLiNTER/tsfw-di",
+    "license": "LGPL",
+    "autoload": {
+        "psr-4": {
+            "timesplinter\\": "src/timesplinter/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pascal Muenst",
+            "email": "dev@timesplinter.ch",
+            "homepage": "http://www.timesplinter.ch",
+            "role": "Developer"
+        }
+    ],
+	
+	"require": {
+		"php": ">=5.5.0"
+	},
+	
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    }
+}
